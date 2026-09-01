@@ -1,0 +1,116 @@
+/* CPT Builder — admin UI */
+
+.cptb-wrap {
+	max-width: 1100px;
+}
+
+.cptb-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 16px;
+	margin: 16px 0;
+}
+
+.cptb-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 16px 20px;
+	margin: 16px 0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.cptb-cards .cptb-card {
+	margin: 0;
+	text-align: center;
+}
+
+.cptb-stat-number {
+	display: block;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #1d2327;
+}
+
+.cptb-stat-label {
+	display: block;
+	color: #646970;
+	margin-top: 4px;
+}
+
+.cptb-card h2 {
+	margin-top: 0;
+}
+
+.cptb-check {
+	display: block;
+	margin: 6px 0;
+}
+
+.cptb-table td {
+	vertical-align: middle;
+}
+
+.cptb-badge {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 12px;
+	font-size: 12px;
+}
+
+.cptb-badge-active {
+	background: #d5f5e3;
+	color: #1e8449;
+}
+
+.cptb-support-card {
+	border-left: 4px solid #2271b1;
+}
+
+.cptb-support-page {
+	text-align: center;
+	padding: 40px 20px;
+}
+
+/* Field rows (field group builder) */
+.cptb-field-row {
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	margin-bottom: 12px;
+	background: #f6f7f7;
+}
+
+.cptb-field-row-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 12px;
+	border-bottom: 1px solid #dcdcde;
+	background: #fff;
+	border-radius: 6px 6px 0 0;
+	cursor: pointer;
+}
+
+.cptb-field-row-title {
+	font-weight: 600;
+}
+
+.cptb-field-row-body {
+	padding: 12px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 0 20px;
+}
+
+.cptb-field-row.cptb-collapsed .cptb-field-row-body {
+	display: none;
+}
+
+.cptb-remove-field {
+	color: #b32d2e;
+}
+
+.cptb-debug-list code {
+	font-size: 12px;
+}

@@ -1,0 +1,23 @@
+/* CPT Builder — field meta boxes on post edit screens */
+
+.cptb-fields .cptb-field {
+	margin-bottom: 16px;
+}
+
+.cptb-fields .cptb-field > label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.cptb-required {
+	color: #b32d2e;
+}
+
+.cptb-image-preview img {
+	max-width: 150px;
+	height: auto;
+	display: block;
+	margin: 8px 0;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+}
